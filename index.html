@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" type="text/css" href="./style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./w3-style.css">
+  <title>Blogging</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+
+  <div class="topnav" id="myTopnav">
+    <a href="./index.html" class="active">Home</a>
+    <a href="#news">Contact</a>
+    <a href="#contact">About</a>
+    <a href="#about">Suppport ME</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+    <div>
+      <a href="./login.html" style="margin: 5px; float: right;" class="btn btn-sm btn-success">Login</a>
+    </div>
+  </div>
+
+
+  <!-- Sidebar -->
+  <div class="container-fluid" style="padding: 0px;">
+    <div class="row">
+      <div class="col-md-4 w3-sidebar w3-bar-block our-sidbar" style="width:25%; background-color: #333;">
+          <a href="#" class="w3-bar-item w3-button"><h3>Profile</h3></a>
+          <a href="#" class="w3-bar-item w3-button"><h3>Dashboard</h3></a>
+          <a href="#" class="w3-bar-item w3-button"><h3>Users</h3></a>
+          <a href="#" class="w3-bar-item w3-button"><h3>Blog Manage</h3></a>
+          <a href="#" class="w3-bar-item w3-button"><h3>Sitting</h3></a>
+          <a href="#" class="w3-bar-item w3-button"><h3>Mailbox</h3></a>
+          <a href="#" class="w3-bar-item w3-button"><h3>Chart</h3></a>
+          <a href="#" class="w3-bar-item w3-button"><h3>Logout</h3></a>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- Page Content -->
+  <section>
+    <div class="container content-block" style="margin-left: 25%;">
+      <div class="row">
+        <div class="col-md-12">
+          <h1 class="px-5 display-5 fst-italic">In Central Asia: Experts Discuss Opportunities to Grow IXPs</h1>
+          <p class="lead my-4">When the Internet Society, Asian Development Bank, and the United Nations
+            Economic and Social Commission for Asia and the Pacific examined the regional
+            digital economy of Central Asia in 2015,</p>
+        </div>
+        <p class="lead mb-0"><a href="#" class="text-white fw-bold">Continue reading...</a></p>
+      </div>
+    </div>
+    </div>
+    <hr>
+    <div class="container" style="margin-left: 25%;">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card" style="width:100%">
+            <img src="blog.jpeg" alt="Avatar">
+            <div class="container">
+              <h4><b>John Doe</b></h4>
+              <p>sary</p>
+              <a href="" class="btn btn-primary">read more </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card" style="width:100%">
+            <img src="blog.jpeg" alt="Avatar" style="width:100%">
+            <div class="container">
+              <h4><b>John Doe</b></h4>
+              <p>marah</p>
+              <a href="" class="btn btn-primary">read more </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+  </script>
+
+</body>
+
+</html>
