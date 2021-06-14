@@ -1,8 +1,8 @@
 ## Agile,Git, and fundamentals of Javascript
 In this phase we learned about the basics of bootstrap,  javascript and Git
-# Frist Project 
-# I write three HTML Pages include :
-# 1- index.HTML 
+## Frist Project 
+ I wrote three HTML Pages include :
+## 1- index.HTML 
  in this projet i used bootstrap & i learned the grid system of bootstrap.
 - I linked this page with Style.Css file contain the design of the project .
 - I used diffrent library : CSS,JS, bootstrap and W3 .
@@ -17,7 +17,7 @@ and login.html to log in button .
  and under of it there is a group of blogs that the user is may interested in .
 
 
-# 2- admin.HTML
+## 2- admin.HTML
 as what i did in index.HTML
 -I linked this page with Style.Css file contain the design of the project .
 - I used diffrent library : CSS,JS, bootstrap and W3 .
@@ -29,7 +29,7 @@ then i linked index.html to home button  .
 - Also i added (what you see is what you get) using Javascript library to enable admin write blogs.
 - I wrote a Javascript function that will alert the user that (your blog send seccessfully! ) whent the user click send button .
 
-# 3- login.HTML
+## 3- login.HTML
 as what i did in index.HTML and admin.html
 - I linked this page with Style.Css file contain the design of the project .
 - I used diffrent library : CSS,JS, bootstrap and W3 .
